@@ -1,0 +1,43 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^1.5.1",
+    "@hookform/resolvers": "^3.3.4",
+    "@prisma/client": "^5.11.0",
+    "@radix-ui/themes": "^3.0.0",
+    "@vercel/postgres": "^0.7.2",
+    "axios": "^1.6.8",
+    "callout": "^0.0.5",
+    "classnames": "^2.5.1",
+    "easymde": "^2.18.0",
+    "next": "14.1.4",
+    "next-auth": "^5.0.0-beta.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.1",
+    "react-icons": "^5.0.1",
+    "react-simplemde-editor": "^5.2.0",
+    "vercel": "^32.3.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "postcss": "^8",
+    "prisma": "^5.11.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
